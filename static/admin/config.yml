@@ -1,11 +1,6 @@
 backend:
-  name: github
-  repo: barbugeorgedev/gatsby-starter-netlify-cms #TODO replace this with your own repo
-  branch: main
-
-backend:
   name: git-gateway
-  branch: master
+  branch: main
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
