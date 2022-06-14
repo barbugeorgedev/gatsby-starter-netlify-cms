@@ -1,4 +1,9 @@
 backend:
+  name: github
+  repo: barbugeorgedev/gatsby-starter-netlify-cms #TODO replace this with your own repo
+  branch: main
+
+backend:
   name: git-gateway
   branch: master
   commit_messages:
@@ -10,6 +15,10 @@ backend:
 
 media_folder: static/img
 public_folder: /img
+publish_mode: editorial_workflow
+display_url: George Barbu
+site_url: https://www.barbu.cc
+logo_url: https://www.barbu.cc/logo.png
 
 collections:
   - name: "blog"
